@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
 // API route
 app.get('/api/info', (req, res) => {
   res.json({
-    app: 'My EC2 Deployed App working fine',
+    app: 'My EC2 Deployed App working fine Develop by ACL Digital',
     environment: process.env.NODE_ENV || 'development',
     deployedAt: process.env.DEPLOY_TIME || 'unknown',
     hostname: require('os').hostname(),
